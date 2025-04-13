@@ -9,13 +9,13 @@
         <?php
             $sentence = "The main body of a book";
             echo "i) <br>";
-            echo "to lower case: " . strtolower($sentence) . "<br>";
-            echo "to upper case: " . strtoupper($sentence) . "<br>";
+            echo "<b>to lower case:</b> " . strtolower($sentence) . "<br>";
+            echo "<b>to upper case:</b> " . strtoupper($sentence) . "<br>";
             echo "ii) <br>";
             $replaced=str_ireplace("book","college",$sentence);
-            echo "replaced: " . $replaced . "<br>";
+            echo "<b>replaced:</b> " . $replaced . "<br>";
             echo "iii) <br>";
-            echo "variable sentence length: " . strlen($sentence) . "<br>";
+            echo "<b>variable sentence length:</b> " . strlen($sentence) . "<br>";
             echo "iv) <br>";
             echo $sentence[4];
             
